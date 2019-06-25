@@ -51,11 +51,7 @@ for (j in c(3:11)) {
   plot(seq(1:(a-1)),log((ans)/(1-ans)), xlab="Bin Number", ylab = "Proportion Survived", main=title[j])
   #points(loess.smooth(seq(1:(a-1)), ans),type='l' ,lty=2)
 }
-\end{verbatim}
-\end{figure}
 
-\begin{figure}
-\begin{verbatim}
 #Figure 7
 par(mfrow=c(3,3))
 for (i in c(3:11)) {
@@ -105,11 +101,6 @@ summary(fitquad)
 anova(fit,fitquad, test="Chisq")
 vif(fitquad)
 
-\end{verbatim}
-\end{figure}
-
-\begin{figure}
-\begin{verbatim}
 #Model with all second order and interactions
 
 fitall = glm(num~.^2+AG+TL+AE+WT+BH+HL+FL+TT+SK+KL+I(TL^2)+I(AE^2)+I(WT^2)+I(BH^2)+I(HL^2)+I(FL^2)+I(TT^2)+I(SK^2)+I(KL^2), family=binomial(link=logit),data=k)
