@@ -1,4 +1,4 @@
-k = read.table("/Users/douglasturner/Desktop/survival_sparrow.txt", header=TRUE)
+k = read.table("/Users/michaelchen/UC Davis/STA 207/survival_sparrow.txt", header=TRUE)
 num=rep(0,dim(k)[1])
 title =c("STATUS", "AG"  ,"TL", "AE",  "WT"  ,"BH", "HL" , "FL"  , "TT", "SK", "KL")
 for (i in c(1:dim(k)[1])) {
