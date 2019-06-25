@@ -5,4 +5,4 @@ After a severe storm hit Rhode Island in 1898, 136 house sparrows were collected
 # Files
 
 `survival-report.pdf` contains our final report, which was written in LaTeX.
-`survival_sparrow.csv` contains the raw data used in our analysis.
+`survival_sparrow.csv` contains the raw data used in our analysis. `sparrow_code.R` contains the R code used in the project.
